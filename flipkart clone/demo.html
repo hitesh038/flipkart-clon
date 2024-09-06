@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="task/task2/logoflipkart.png" type="image/x-icon">
+        <title>real me p1 5G(128GB stroge </title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background-color: rgb(216, 227, 223);
+    margin: 0;
+    padding: 0;
+
+}
+
+div.header-container {
+    height: 56px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+
+.logobar {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+    font-style: italic;
+}
+
+.logo-text {
+    display: flex;
+    width: 50px;
+    gap: 5px;
+    margin-left: 200px;
+}
+
+.text1 {
+    color: rgb(235, 238, 238);
+    font-weight: 500;
+}
+
+.text2 {
+    color: yellow;
+    font-weight: 500;
+}
+
+.searchbox {
+    display: flex;
+    margin-left: 40px;
+}
+
+.searchbar {
+    height: 33.5px;
+    width: 400px;
+    border-style: hidden;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.serachbutton {
+    display: flex;
+    height: 34px;
+    width: 40px;
+    padding: 8px 8px 8px 12px;
+    background-color: rgb(255, 252, 252);
+    border-style: hidden;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+i {
+    font-size: 20px;
+    color: blue;
+}
+
+button.login {
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 252, 252);
+    ;
+    border-style: hidden;
+    margin-left: 5px;
+    color: blue;
+    margin-left: 50px;
+    border-radius: 2px;
+}
+
+div.seller {
+    margin-left: 100px;
+
+}
+
+div.more {
+    margin-left: 50px;
+}
+
+
+.text-seller,
+.text-more,
+.text-cart {
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#cart-icon {
+    color: white;
+}
+
+button.arrow-logo {
+    background-color: blue;
+    border-style: hidden;
+    margin-left: 5px;
+}
+
+div.cart-logo {
+    margin-left: 50px;
+}
+
+div.cart {
+    margin-left: 10px;
+}
+
+#arrow-icon {
+    color: white;
+    font-size: 10px;
+}
+
+/*------------NAV BAR----------/
+div.navbar {
+    background-color: white;
+    height: 40px;
+    margin-top: 55px;
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    border: 1px solid rgba(244, 241, 241, 0.966);
+
+
+}
+
+#arrow-icon2 {
+    background-color: white;
+    color: rgb(96, 94, 94);
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+button.arrow-logo2 {
+    background-color: white;
+    border-style: hidden;
+}
+
+.nav-text {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #000000d4;
+
+}
+
+.navitem {
+    margin-left: 160px;
+
+}
+
+/-------SECTION 3------/
+.section3 {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 100px;
+    background-color: white;
+
+}
+
+/-----main part---/
+.main-part1 {
+
+    background-color: white;
+    margin-top: 10px;
+
+
+}
+
+.sub-main-part1 {
+    display: flex;
+}
+
+.small-image {
+    display: grid;
+    margin-left: 10px;
+    height: 443px;
+    grid-template-columns: 75px;
+    grid-template-rows: repeat(7, 68px)
+}
+
+.image1 {
+
+    border: 1px solid rgba(244, 241, 241, 0.966);
+    overflow: hidden;
+
+}
+
+.sec3-img {
+    height: 54px;
+    width: 64px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.downarrow {
+    border: 1px solid rgba(244, 241, 241, 0.966);
+    height: 25px;
+    background-color: white;
+    width: 75px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+#downarrow-icon {
+    color: black;
+    background-color: white;
+}
+
+/*part 2/
+
+div.bigimage {
+    border: 1px solid rgba(244, 241, 241, 0.966);
+    height: 478px;
+    flex-grow: 1;
+    text-align: center;
+
+
+}
+
+.bigimage1 {
+    height: 440px;
+    width: 361px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+/*cart box/
+div.cart-box {
+    display: flex;
+    width: 508px;
+    height: 150px;
+    background-color: white;
+    gap: 10px;
+
+}
+
+.button1 {
+    background-color: orange;
+    height: 56px;
+    width: 208px;
+    margin-left: 85px;
+    border-style: hidden;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.button2 {
+    background-color: #fb641b;
+    height: 56px;
+    width: 208px;
+    border-style: hidden;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.text-cart1 {
+    color: white;
+    font-weight: 700;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+/--- MAIN PART 2----/
+.main-part2 {
+    background-color: white;
+    width: 100vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/box 1/
+.container1 {
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    gap: 10px;
+}
+
+div.end-home {
+    margin-left: 260px;
+}
+
+div.end-home1 {
+    margin-left: 15px;
+}
+
+#end-text {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#text-home {
+    color: #878787;
+    text-decoration: none;
+}
+
+#home-icon {
+    color: #878787;
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+#home-icon1 {
+    color: #e1e0e0;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#check-box {
+    height: 14px;
+    width: 14px;
+}
+
+/* container 2*/
+.container2 {
+    height: 124px;
+}
+
+.box1 {
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#box1-text {
+    color: #212121;
+}
+
+div.box2 {
+    height: 28px;
+    margin-left: 25px;
+    margin-top: 5px;
+
+}
+
+.rate-box {
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 13px;
+    vertical-align: middle;
+    background-color: #388e3c;
+}
+
+#star-icon {
+    height: 10px;
+    width: 10px;
+}
+
+.rate-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+    background-color: white;
+}
+
+.logo-box2 {
+    height: 22px;
+    width: 77px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+div.box3 {
+    margin-top: 20px;
+}
+
+.box3-text {
+    height: 16px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    color: #388e3c;
+}
+
+.box4 {
+    height: 51px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: 550;
+    color: #212121;
+}
+
+.cut-price {
+    font-size: 16px;
+    margin-left: 12px;
+    vertical-align: middle;
+    color: #878787;
+    margin-top: 10px;
+}
+
+.offer-box4 {
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #388e3c;
+    vertical-align: middle;
+}
+
+div.container3 {
+
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.cont-3 {
+    font-weight: 600;
+}
+
+.content-3 {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.image3 {
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+
+.text-1 {
+    color: #212121;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.text-2 {
+    font-size: 14px;
+}
+
+.text-3 {
+    font-weight: 600;
+    color: blue;
+    font-size: 14px;
+}
+
+div.view {
+    margin-top: 10px;
+}
+
+.view-3 {
+    font-size: 14px;
+    color: #2874f0;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 12px;
+
+
+}
+
+.container4 {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.cont4-box1 {
+    display: flex;
+    border: 1px solid rgb(225, 223, 223);
+    width: 400px;
+    background-color: #f5faff;
+
+    padding: 20px;
+}
+
+#button-1 {
+    height: 16px;
+    width: 16px;
+}
+
+
+
+.cont4-text {
+    color: #212121;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.cont4-price {
+    margin-left: 150px;
+    font-size: 14px;
+    color: #212121;
+    font-weight: 600;
+}
+
+div.cont4-box2 {
+    height: 70px;
+    border: 1px solid rgb(225, 223, 223);
+    padding: 20px;
+    width: 400px;
+
+}
+
+.cont4-box2:hover {
+    cursor: not-allowed;
+}
+
+div.cont4-line {
+    display: flex;
+    width: 400px;
+
+}
+
+.cont4-text2 {
+    color: #817f7f;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.cont4-price2 {
+    margin-left: 90px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #817f7f;
+}
+
+.cont4-line2 {
+    color: #817f7f;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.cont4-line3 {
+    color: red;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.cont5-box {
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+#cont5-image {
+    height: 25px;
+    width: 51px;
+    padding: 5px;
+    border: 1px solid rgb(219, 215, 215);
+}
+
+.cont5-img {
+    display: flex;
+    padding: 20px;
+}
+
+.cont5-text {
+    font-size: 14px;
+    color: #212121;
+    margin-left: 31px;
+    position: relative;
+    line-height: 2;
+}
+
+#cont5-text2 {
+    color: blue;
+    font-weight: 600;
+}
+
+#cont5-text3 {
+    color: blue;
+    font-weight: 600;
+}
+
+.cont6-part1 {
+    display: flex;
+}
+
+.cont6-box1 {
+    display: flex;
+
+    width: 400px;
+    margin-left: 35px;
+    margin-top: 20px;
+
+}
+
+#cont6-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+    padding: 5px;
+
+}
+
+.cont6-image1 {
+    margin-left: 50px;
+    border: 2px solid blue;
+    height: 55px;
+
+}
+
+.cont6-image2 {
+    margin-left: 20px;
+    border: 2px solid rgb(204, 204, 208);
+    height: 55px;
+}
+
+#cont6-1 {
+    height: 55px;
+    width: 52px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#cont6-2 {
+    height: 55px;
+    width: 52px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.cont6-box2 {
+    display: flex;
+    width: 400px;
+    height: 54px;
+    margin-top: 20px;
+}
+
+.cont6-128 {
+
+    height: 40px;
+    margin-left: 60px;
+}
+
+.cont6-256 {
+    height: 40px;
+    margin-left: 20px;
+}
+
+#a-128 {
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 2px solid #e0e0e0;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+#a-256 {
+    border: 2px solid #2874f0;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 6px 10px;
+    color: #2874f0;
+    border-radius: 2px;
+}
+
+div.cont6-part2 {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+#a-6 {
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 2px dotted #e0e0e0;
+    color: #696666;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+#a-8 {
+    border: 2px solid #2874f0;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 6px 10px;
+    color: #2874f0;
+    border-radius: 2px;
+}
+
+.first-line {
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.first-text-line {
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+#path-img {
+    color: #fb641b;
+    font-size: 12px;
+    margin-left: 60px;
+
+}
+
+#cont7-input {
+    border-style: hidden;
+    font-weight: 600;
+    color: #878787;
+    margin-left: 10px;
+
+}
+
+.check {
+    color: #2874f0;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.second-line {
+    margin-left: 160px;
+    margin-top: 5px;
+    width: 250px;
+    height: 2px;
+    box-shadow: 0px 2px #fb641b;
+}
+
+.third-line {
+    font-size: 13px;
+    margin-left: 160px;
+    margin-top: 10px;
+    color: red;
+}
+
+.container8 {
+    display: flex;
+    height: 170px;
+    padding: 30px 0px 0px;
+}
+
+.cont8-box1,
+.cont8-box2 {
+    display: flex;
+  
+}
+.cont8-heading1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+    margin-left: 35px;
+}
+.cont8-heading2{
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+    margin-left: 30px;
+    width: 100px;
+    
+}
+.data-box1{
+    margin-left: 40px;
+    line-height: 25px;
+   
+}
+.data-box2{
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.cont8-box1-text {
+    color: #212121;
+    font-size: 13px;
+    position: relative;
+}
+.cont8-box1-text2{
+    color: #2874f0;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.container9{
+    display: flex;
+}
+.cont9-box1{
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+    margin-left: 30px;
+}
+.line-1{
+    color: #2874f0;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 55px;
+}
+
+.rate-box1{
+    line-height: normal;
+    margin-left: 5px;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    vertical-align: middle;
+    background-color: #2874f0;
+}
+
+#star-icon {
+    height: 10px;
+    width: 10px;
+}
+
+.line-2{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.cont9-text{
+    color: #212121;
+    line-height: 25px;
+    font-size: 14px;
+}
+.cont9-text2{
+    color: #2874f0;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+    </style>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logobar">Flipkart </div>
+                <div class="logo-text">
+                    <div class="text1">Explore</div>
+                    <div class="text2">Plus+</div>
+                </div>
+            </div>
+            <div class="searchbox">
+                <input class="searchbar" type="search" placeholder="Search for Product, Brand and more ">
+                <button class="serachbutton">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <button class="login">
+                <h3 class="text-login">login</h3>
+            </button>
+            <div class="seller">
+                <h2 class="text-seller"> Become a Seller</h2>
+            </div>
+            <div class="more">
+                <h2 class="text-more">More</h2>
+            </div>
+            <button class="arrow-logo">
+                <i id="arrow-icon" class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="cart-logo">
+                <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="cart">
+                <h2 class="text-cart">Cart</h2>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="navbar">
+            <div class="navitem">
+                <span class="nav-text">Eletronics
+                </span>
+                <button class="arrow-logo2">
+                    <i id="arrow-icon2" class="fa-solid fa-chevron-down"></i>
+                </button>
+            </div>
+            <div class="navitem1">
+                <span class="nav-text">TV & Appliances
+                    <button class="arrow-logo2">
+                        <i id="arrow-icon2" class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </span>
+            </div>
+            <div class="navitem1">
+                <span class="nav-text">Men
+                    <button class="arrow-logo2">
+                        <i id="arrow-icon2" class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </span>
+            </div>
+            <div class="navitem1">
+                <span class="nav-text">Women
+                    <button class="arrow-logo2">
+                        <i id="arrow-icon2" class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </span>
+            </div>
+            <div class="navitem1">
+                <span class="nav-text">Baby & Kids
+                    <button class="arrow-logo2">
+                        <i id="arrow-icon2" class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </span>
+            </div>
+            <div class="navitem1">
+                <span class="nav-text">Home and Furniture
+                    <button class="arrow-logo2">
+                        <i id="arrow-icon2" class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </span>
+            </div>
+            <div class="navitem1">
+                <span class="nav-text">Sports , Books & More
+                    <button class="arrow-logo2">
+                        <i id="arrow-icon2" class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </span>
+            </div>
+            <div class="navitem1">
+                <span class="nav-text">Flights</span>
+            </div>
+            <div class="navitem1">
+                <span class="nav-text">Offer Zone</span>
+            </div>
+        </div>
+    </nav>
+    <div class="section3">
+        <div class="main-part1">
+            <div class="sub-main-part1">
+                <div class="part1">
+                    <div class="small-image">
+                        <div class="image1">
+                            <img class="sec3-img"
+                                src="https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/j/b/n/-original-imahyuhfzvybhaat.jpeg?q=70&crop=false"
+                                alt="">
+                        </div>
+                        <div class="image1">
+                            <img class="sec3-img"
+                                src="https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/d/b/p/-original-imahyaaxcyggzrrt.jpeg?q=70&crop=false"
+                                alt="">
+                        </div>
+                        <div class="image1">
+                            <img class="sec3-img"
+                                src="https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/p/d/z/-original-imahyaax2hxyftj6.jpeg?q=70&crop=false"
+                                alt="">
+                        </div>
+                        <div class="image1">
+                            <img class="sec3-img"
+                                src="https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/c/p/s/-original-imahyaaxv9hkqyrg.jpeg?q=70&crop=false"
+                                alt="">
+                        </div>
+                        <div class="image1">
+                            <img class="sec3-img"
+                                src="https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/p/d/z/-original-imahyaax2hxyftj6.jpeg?q=70&crop=false"
+                                alt="">
+                        </div>
+                        <div class="image1">
+                            <img class="sec3-img"
+                                src="https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/o/m/g/-original-imahyaaxgvg6funb.jpeg?q=70&crop=false"
+                                alt="">
+                        </div>
+                        <div class="image1">
+                            <img class="sec3-img"
+                                src="https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/o/m/g/-original-imahyaaxgvg6funb.jpeg?q=70&crop=false"
+                                alt="">
+                        </div>
+                        <div class="image1">
+                            <img class="sec3-img"
+                                src="https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/o/m/g/-original-imahyaaxgvg6funb.jpeg?q=70&crop=false"
+                                alt="">
+                        </div>
+                        <div class="image1">
+                            <img class="sec3-img"
+                                src="https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/o/m/g/-original-imahyaaxgvg6funb.jpeg?q=70&crop=false"
+                                alt="">
+                        </div>
+                    </div>
+                    <button class="downarrow">
+                        <i id="downarrow-icon" class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="bigimage">
+                    <div class="big-image">
+                        <img class="bigimage1" src="sec4image1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-box">
+                <button class="button1">
+                    <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+                    <span class="text-cart1">ADD TO CART</span>
+                </button>
+                <button class="button2">
+                    <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+                    <span class="text-cart1">BUY NOW</span>
+                </button>
+
+            </div>
+        </div>
+        <div class="main-part2">
+            <div class="container1">
+                <div class="home">
+                    <a id="text-home" href="#">Home</a>
+                    <i id="home-icon" class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="home">
+                    <a id="text-home" href="#">Mobile & Access...</a>
+                    <i id="home-icon" class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="home">
+                    <a id="text-home" href="#">Mobiles</a>
+                    <i id="home-icon" class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="home">
+                    <p id="text-home">Real me mobile....</p>
+                </div>
+                <div class="end-home">
+                    <input id="check-box" type="checkbox"> <span id="end-text">Compare</span>
+                </div>
+                <div class="end-home1">
+                    <i id="home-icon1" class="fa-solid fa-share"></i>
+                    <span id="end-text">Share</span>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="box1">
+                    <span id="box1-text">realme P1 5G (Peacock Green , 128 GB) (6 GB RAM)</span>
+                </div>
+                <div class="box2">
+                    <div class="rate-box">4.3
+                        <img id="star-icon"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg=="
+                            alt="">
+                    </div>
+                    <span class="rate-text">24,007 Ratings & 1,497 Reviews</span>
+                    <img class="logo-box2"
+                        src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png"
+                        alt="">
+                    <div class="box3">
+                        <span class="box3-text">Extra &#8377 5000 off</span>
+                    </div>
+                    <div class="box4">
+                        <div class="price"> <span>&#8377</span>15,999</div>
+                        <div class="cut-price">&#8377 <del>20,999</del></div>
+                        <span class="offer-box4">23% off</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container3">
+                <div class="cont-3">Available Offers</div>
+                <div class="content-3">
+                    <img class="image3"
+                        src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                        alt="">
+                    <span class="text-1"> Bank Offer </span><span class="text-2">5% Cashback on Flipkart Axis Bank Card
+                        <Span class="text-3">T&C</Span></span>
+                </div>
+                <div class="content-3">
+                    <img class="image3"
+                        src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                        alt="">
+                    <span class="text-1"> Special Price </span><span class="text-2">Get extra ₹5000 off (price inclusive
+                        of cashback/coupon) <Span class="text-3">T&C</Span></span>
+                </div>
+                <div class="content-3">
+                    <img class="image3"
+                        src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                        alt="">
+                    <span class="text-1"> Freebie </span><span class="text-2">Spotify Premium - 12M at ₹699 <Span
+                            class="text-3">T&C</Span></span>
+                </div>
+                <div class="content-3">
+                    <img class="image3"
+                        src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                        alt="">
+                    <span class="text-1">Partner Offer</span><span class="text-2">Make a purchase and enjoy a surprise
+                        cashback/ coupon that you can redeem later! <Span class="text-3">Know More</Span></span>
+                </div>
+                <div class="view">
+                    <span class="view-3"> View 8 more offers</span>
+                </div>
+            </div>
+            <div class="container4">
+                <div class="cont4-box1">
+                    <div id="cont4-button1">
+                        <input id="button-1" type="radio" checked>
+                    </div>
+                    <div class="cont4-text">Buy without Exchange</div>
+                    <div class="cont4-price">&#8377 <span>18,999</span></div>
+                </div>
+                <div class="cont4-box2">
+                    <div class="cont4-line">
+                        <div id="cont4-button1">
+                            <input id="button-1" type="radio">
+                        </div>
+                        <div class="cont4-text2">Buy without Exchange</div>
+                        <div class="cont4-price2">up to &#8377 <span>18,999 Off</span></div>
+                    </div>
+                    <div class="cont4-line2">Get extra &#8377 1,000 off on exchange of select models</div>
+                    <div class="cont4-line3">Enter pincode to check if exchange is available</div>
+                </div>
+            </div>
+            <div class="container5">
+                <div class="cont5-box">
+                    <div class="cont5-img">
+                        <img id="cont5-image"
+                            src="https://rukminim2.flixcart.com/image/160/160/cms-brand/eea5e92d62ce85371ac1f31395c00690d9f524ee7d988149dfba8c07d73aaf41.png?q=90"
+                            alt="">
+                        <div class="cont5-text">1 Year Manufacturer Warranty for Device and 6 Months Manufacturer
+                            Warranty for Inbox Accessories <span id="cont5-text2"> Know</span> <span
+                                id="cont5-text2">More</span></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container6">
+                <div class="cont6-part1">
+                    <div class="cont6-box1">
+                        <div class="cont6">
+                            <span id="cont6-text">Color</span>
+                        </div>
+                        <div class="cont6-image1">
+                            <img id="cont6-1" src="sec4image1.png" alt="">
+                        </div>
+                        <div class="cont6-image2">
+                            <img id="cont6-2" src="sec4image3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="cont6-box2">
+                        <div class="cont6">
+                            <span id="cont6-text">Storage</span>
+                        </div>
+                        <div class="cont6-128">
+                            <a id="a-128" href="#">128 GB</a>
+                        </div>
+                        <div class="cont6-256">
+                            <a id="a-256" href="#">256 GB</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cont6-part2">
+                    <div class="cont6">
+                        <span id="cont6-text">RAM</span>
+                    </div>
+                    <div class="cont6-128">
+                        <a id="a-6" href="#">6 GB</a>
+                    </div>
+                    <div class="cont6-256">
+                        <a id="a-8" href="#">8 GB</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container7">
+                <div class="first-line">
+                    <div class="first-text-line">
+                        Delivery
+                    </div>
+                    <div class="path">
+                        <i id="path-img" class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="input">
+                        <input id="cont7-input" type="text" placeholder="Enter Delivery pincod">
+                    </div>
+                    <div class="cont7-span">
+                        <span class="check">Check</span>
+                    </div>
+
+                </div>
+                <div class="second-line"> </div>
+                <div class="third-line">Currently out of stock in this area.</div>
+            </div>
+            <div class="container8">
+                <div class="cont8-box1">
+                    <p class="cont8-heading1">Highlights</p>
+                    <ul class="data-box1">
+                        <li class="cont8-box1-text">6 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li>
+                        <li class="cont8-box1-text">16.94 cm (6.67 inch) HD Display</li>
+                        <li class="cont8-box1-text">32MP + 2MP | 8MP Front Camera</li>
+                        <li class="cont8-box1-text">5100 mAh Battery</li>
+                        <li class="cont8-box1-text">Dimensity 6300 Processor</li>
+                    </ul>
+                </div>
+                <div class="cont8-box2">
+                    <p class="cont8-heading2">Easy payment option</p>
+                    <ul class="data-box2">
+                        <li class="cont8-box1-text">No cost EMI starting from ₹4,333/month</li>
+                        <li class="cont8-box1-text">Net banking & Credit/ Debit/ ATM card</li>
+                        <li class="cont8-box1-text2">View Details</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container9">
+                <div class="cont9-box1">Seller</div>
+                <div class="cont9-box2">
+                    <span class="line-1">XONIGHT E-Commerce</span>
+                    <div class="rate-box1">4.1
+                        <img id="star-icon"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg=="
+                            alt="">
+                    </div>
+                    <ul class="line-2">
+                        <li class="cont9-text">7 Days Service Center Replacement/Repair</li>
+                        <li class="cont9-text">GST invoice available</li>
+                        <li class="cont9-text2">See Other Sellers</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+</body>
+
+</html>
