@@ -8,6 +8,8 @@
 
 
 body {
+    width: 100%;
+
     background-color: #eeeeee;
     padding: 0px 10px;
     overflow-x: hidden;
@@ -24,7 +26,7 @@ body {
 .heder {
     display: grid;
     background-color: #fff;
-    width: 100vw;
+    width: 100%;
     z-index: 10;
     margin: auto;
     position: fixed;
@@ -712,6 +714,10 @@ footer {
         height: 30px;
     }
 
+    .sec1{
+        margin-top: 0;
+    }
+
     .arow1,
     .arow2,
     .arow {
@@ -738,13 +744,13 @@ footer {
     }
 
     .heder {
-        position: absolute;
+        position: static;
         grid-template-columns: auto 20vw 5vw 5vw 10vw;
         grid-template-rows: 1fr 1fr;
     }
     input,.serch{
         margin: auto;
-        width: 96vw;
+        width: 94%;
         display: grid;
         grid-row-start: 2;
         grid-row-end: 3;
